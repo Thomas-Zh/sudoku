@@ -17,9 +17,9 @@ sudoku[6][6] = Math.floor((Math.random() * 9) + 1);
 sudoku[7][7] = Math.floor((Math.random() * 9) + 1);
 sudoku[8][8] = Math.floor((Math.random() * 9) + 1);//set random numbers to pivots
 
-var r,c;
+
 var limit=[1,2,3,4,5,6,7,8,9,10];
-var i=0;
+function soduku(r,c,i){
 for(r=0;r<9;r++){
 	for(c=0;c<9;c++){
 		if(sudoku[r][c]=0){
@@ -40,4 +40,6 @@ for(r=0;r<9;r++){
 		}
 		else c++;//skip the number typed by user
 	} 
+}
+return 0;
 }
